@@ -13,7 +13,7 @@ console.log(sobrenome)
 let nome1;
 console.log(nome1)
 // declarando uma variavel nula
-let nome2=nu11;
+let nome2=null;
 console.log(nome2)
 
 // tipo de variavveis
@@ -33,9 +33,11 @@ console.log(typeof exemplo4)
 let exemplo5 =[];
 console.log(typeof exemplo5)
 
+let numFloat =123.456;
+console.log(parseInt(numFloat));
 
-
-
+let numString ="123.456"
+console.log(parseFloat(numString));
 
 
 
