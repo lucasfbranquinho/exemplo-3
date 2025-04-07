@@ -130,3 +130,8 @@ switch(time){
 }
 
 // ternario 
+
+let valor =100;
+
+let resultado = valor == 100? "certo" :"errado"
+console.log(resultado)
