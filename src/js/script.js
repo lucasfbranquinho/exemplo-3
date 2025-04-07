@@ -135,3 +135,9 @@ let valor =100;
 
 let resultado = valor == 100? "certo" :"errado"
 console.log(resultado)
+
+//ternario encadeado
+let produto ="notebok"
+const desconto =true;
+const preco= produto ==="notebok" ? desconto ? 100 :200 : produto ==="mouse" ? 30 : 100
+console.log(preco)  
