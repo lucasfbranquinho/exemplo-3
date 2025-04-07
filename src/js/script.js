@@ -3,8 +3,8 @@
 var nome = "fiap;"
 console.log(nome)
 
-let idade = 19
-console.log(idade)
+let idade1 = 19
+console.log(idade1)
 
 const sobrenome="fabiho"
 console.log(sobrenome)
@@ -79,3 +79,54 @@ console.log(num3 > num4 || num4 > num3);
 
 console.log(num3 == num4 );
 console.log(num3 === num4 );
+
+// estrutura condicional //
+
+//if
+let logado="fiap";
+
+if(logado=="fiap"){
+    console.log("e verdadeiro")
+
+}
+
+//if/else
+
+let usuario="teste"
+if(usuario=="teste"){
+    console.log("usuario correto")
+}else{
+    console.log("usuaio errado")
+}
+
+//if encadeado / aninhado
+
+let idade =15
+
+if(idade < 15){
+    console.log("menor de idade")
+}else if(idade >15 && idade <18){
+    console.log("nao e maior mas pode entrar")    
+}else{
+    console.log("e maior de idade pode entrar")
+}
+
+//switch
+
+let time ="vasco"
+
+switch(time){
+    case "vasco":
+        console.log("melhor time")
+        break;
+    case "sao paulo":
+        console.log("nao e melhor time")
+        break;
+    case "palmeiras":
+        console.log("nao tem mundial")
+        break;
+    default:
+        console.log("nenhuma das opçoes")
+}
+
+// ternario 
